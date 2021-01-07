@@ -54,9 +54,10 @@ The following table is shows average of 100 runtimes for test case 1:
 |Randomized Quick Sort|0.00033|0.00310|0.01662|0.0347|**0.0710**|
 |Hybrid Randomized (QuickSort & InsertionSort)|0.00041|0.00311|0.016693|**0.0345**|0.07462|
 |Heap Sort|0.00070|0.00803|0.04510|0.0953|0.20711|
+
 By observing the pervious table, we can see that Quick Sort, Randomized Quick Sort and Hybrid Randomized have the best average run times when increasing the array size and insertion sort having the worst average run time.
 
-**Test case 2:** The** array will start with size of 100 and increment by 100 until 500, Array values ranges between 0 and 1200 and the Array is initially inserted as **Sorted**.
+**Test case 2:** The array will start with size of 100 and increment by 100 until 500, Array values ranges between 0 and 1200 and the Array is initially inserted as **Sorted**.
 
 ![](Report.004.png)
 
@@ -76,6 +77,7 @@ The following table is shows average of 100 runtimes for test case 2:
 |Randomized Quick Sort|0.000401|0.03329|Recursion Error|Recursion Error|Recursion Error|
 |Hybrid Randomized (QuickSort & InsertionSort)|0.000409|0.03078|Recursion Error|Recursion Error|Recursion Error|
 |Heap Sort|0.00053|0.00923|0.0562|0.1080|0.2521|
+
 By observing the pervious table, we can see that Insertion Sort have the best average run time when increasing the array size and Quick Sort having the worst average run time, the reason behind that is the input array is already sorted.
 
 **Test case 3**: Array will start with size of 100 and increment by 100 until 800, Array values ranges between 0 and 1200 and the Array is initially inserted as **Reverse Sorted**.
@@ -101,7 +103,9 @@ The following table is shows average of 100 runtimes for test case 3:
 
 **Test case 4:** The array will start with size of 100 and increment by 50 until 500, Array values ranges between 0 and 1200 and the Array is initially inserted as **Partially Sorted**.
 
-![](Report.006.png)The following Graph implements test case 4 with 30% of the input is sorted:                                                                                                       
+The following Graph implements test case 4 with 30% of the input is sorted: 
+
+![](Report.006.png)                                                                                                      
 
 The following table does a comparison for the average time that used for the whole graph.
 
