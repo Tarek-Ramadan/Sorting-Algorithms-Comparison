@@ -1,4 +1,4 @@
-# Sorting-Alogrthims-Comparison
+# Sorting Alogrthims Comparison
 
 - **Introduction**
 
